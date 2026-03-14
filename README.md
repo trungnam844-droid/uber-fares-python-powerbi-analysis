@@ -213,8 +213,6 @@ df_clean.to_csv("Uber_Clean.csv")
 
 # 🖥 Dashboard Preview
 
-*(Upload your screenshots to the `images` folder and they will appear here)*
-
 ### 🚕 Ride Overview
 
 ![Overview](images/overview.png)
