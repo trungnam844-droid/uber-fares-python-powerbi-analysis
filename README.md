@@ -223,7 +223,7 @@ df_clean.to_csv("Uber_Clean.csv")
 
 ### 🌍 Geographic Analysis
 
-![Geographic](images/geographic.png)
+![Geo](images/geographic.png)
 
 ### 💰 Revenue Analysis
 
