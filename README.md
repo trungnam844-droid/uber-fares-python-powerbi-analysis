@@ -4,7 +4,7 @@
 
 * This project analyzes Uber ride data to uncover patterns in **ride demand, pricing, trip distance, and revenue performance**.
 
-* Using **Python for data cleaning and feature engineering** and **Power BI for interactive visualization**, the project transforms raw trip data into meaningful business insights.
+* Using **Python for data cleaning and feature engineering** and **Power BI for interactive visualization**, the project transforms raw trip data into meaningful **business insights**     .
 
 ### Key Business Questions
 
@@ -17,26 +17,25 @@ The final result is a **multi-page Power BI dashboard** designed to help underst
 
 ---
 
-# 🧠 Business Problem
+# 🧠 Project Objective
 
 Ride-sharing platforms generate massive amounts of **trip-level data**.
 
 However, raw data often contains:
 
 * missing values
-* outliers
+* extreme outliers
 * unrealistic records
 
-Before insights can be generated, the data must be **cleaned and structured**.
+The objective of this project is to:
 
-This project demonstrates a **typical Data Analyst workflow**:
+* clean and structure the raw dataset
 
-1️⃣ Data cleaning and preprocessing
-2️⃣ Feature engineering
-3️⃣ Exploratory data analysis
-4️⃣ Business dashboard development
+* perform **exploratory data analysis**
 
-The goal is to convert raw operational data into **actionable insights for decision making**.
+* build an **interactive business dashboard**
+
+Ultimately, the goal is to convert raw data into **actionable insights for data-driven decision making**.
 
 ---
 
@@ -58,6 +57,12 @@ These variables allow analysis of:
 * 💵 pricing behavior
 * 🗺 geographic ride distribution
 * 📊 revenue performance
+
+**Dataset Source**
+
+Uber Fares Dataset from **Kaggle**
+
+Dataset includes thousands of trip records used for **data analytics practice and modeling**
 
 ---
 
@@ -81,6 +86,52 @@ Export Clean Dataset
 Power BI Dashboard
 ```
 
+---
+
+# 🏗 Data Architecture
+
+The project follows a structured **data analytics architecture** from raw data to business insights.
+
+           +-------------------+
+           |   Raw Uber Data   |
+           +---------+---------+
+                     |
+                     v
+        +--------------------------+
+        |  Data Cleaning (Python)  |
+        |  - Remove null values    |
+        |  - Remove duplicates     |
+        |  - Filter invalid trips  |
+        +-----------+--------------+
+                    |
+                    v
+        +---------------------------+
+        |   Feature Engineering     |
+        |   - Hour / Day / Month    |
+        |   - Distance calculation  |
+        |   - Price per KM          |
+        +------------+--------------+
+                     |
+                     v
+        +---------------------------+
+        | Exploratory Data Analysis |
+        |  (Matplotlib / Seaborn)   |
+        +------------+--------------+
+                     |
+                     v
+          +-----------------------+
+          | Clean Dataset Export  |
+          +-----------+-----------+
+                      |
+                      v
+          +-----------------------+
+          |   Power BI Dashboard  |
+          +-----------+-----------+
+                      |
+                      v
+          +-----------------------+
+          |   Business Insights   |
+          +-----------------------+
 ---
 
 # 🧹 Data Cleaning
@@ -188,7 +239,9 @@ This helps analyze **pricing consistency across trips**.
 
 ---
 
-# 📊 Exploratory Data Analysis
+# 📊 Python Data Exploration
+
+Before building the dashboard, exploratory data analysis was conducted using Python.
 
 Key analyses included:
 
@@ -196,8 +249,10 @@ Key analyses included:
 * 📏 Trip distance distribution
 * 🔗 Fare vs distance relationship
 * ⏰ Ride demand by hour
+ 
+Example visualization:
 
-These analyses helped identify patterns before building the dashboard.
+![EDA Example](images/eda_example.png)
 
 ---
 
@@ -245,6 +300,20 @@ df_clean.to_csv("Uber_Clean.csv")
 
 ---
 
+# 💼 Business Impact
+
+The insights generated from this analysis can help ride-sharing companies:
+
+• Understand peak demand periods  
+• Optimize driver allocation  
+• Analyze pricing behavior  
+• Identify high-demand geographic areas  
+• Improve revenue optimization strategies
+
+Such insights can support **data-driven operational decisions** in ride-sharing platforms.
+
+---
+
 # 📁 Project Structure
 
 ```
@@ -280,9 +349,26 @@ Uber-Fares-Analysis
 * 💡 Business Insight Generation
 * 🖥 Dashboard Development
 
-**Tools used**
+# ⚙️ Tech Stack
 
-Python • Pandas • NumPy • Matplotlib • Seaborn • Power BI
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Power BI
+
+# 🚀 Future Improvements
+
+* Potential next steps for the project:
+
+* Apply **machine learning models to predict fare prices**
+
+* Build **time-series demand forecasting**
+
+* Integrate **real-time ride data**
+
+* Deploy dashboard using **Power BI Service**
 
 ---
 
