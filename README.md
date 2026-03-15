@@ -317,7 +317,7 @@ Such insights can support **data-driven operational decisions** in ride-sharing 
 # 📁 Project Structure
 
 ```
-Uber-Fares-Analysis
+uber-fares-python-powerbi-analysis
 │
 ├── data
 │   └── Uber_Clean.csv
