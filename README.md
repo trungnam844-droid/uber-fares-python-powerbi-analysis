@@ -3,6 +3,8 @@
 
 Uber operates in a highly dynamic environment where pricing, demand, and driver allocation directly impact revenue.
 
+---
+
 ## 📌 Project Summary
 
 * This project analyzes Uber ride data to uncover patterns in **ride demand, pricing, trip distance, and revenue performance**.
