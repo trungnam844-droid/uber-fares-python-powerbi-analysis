@@ -374,9 +374,9 @@ uber-fares-python-powerbi-analysis
 
 # 👨‍💻 Author
 
-**Nam**
+**Nam Tran**
 
-Aspiring **Data Analyst**
+**Data Analyst**
 
 Focus areas:
 
