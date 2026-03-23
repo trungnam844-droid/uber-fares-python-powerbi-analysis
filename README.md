@@ -1,4 +1,7 @@
 # 🚕 Uber Fares Data Analysis & Business Insights Dashboard
+📌 Business Problem
+
+Uber operates in a highly dynamic environment where pricing, demand, and driver allocation directly impact revenue.
 
 ## 📌 Project Summary
 
@@ -297,6 +300,15 @@ df_clean.to_csv("Uber_Clean.csv")
 4️⃣ Revenue increases toward **Thursday and Friday**.
 
 5️⃣ Most pickups occur in **dense urban areas**.
+
+---
+
+# 🚀 Recommendations
+
+* Implement dynamic pricing during peak hours to maximize revenue
+* Incentivize drivers to operate in high-demand zones
+* Optimize pricing strategies for short-distance trips
+* Focus on high-value routes (e.g., airport or long-distance trips)
 
 ---
 
